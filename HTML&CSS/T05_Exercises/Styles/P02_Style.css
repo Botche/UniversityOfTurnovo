@@ -1,0 +1,31 @@
+.menu{
+    background-color: lightblue;
+    border-radius: 20px;
+}
+
+.menu__list{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.menu__item{
+    padding: 1em;
+}
+
+.menu__item a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.menu__item--bold{
+    font-weight: bold;
+}
+
+.menu__item--hidden{
+    visibility: hidden;
+}
+
+.menu__item--none{
+    display: none;
+}

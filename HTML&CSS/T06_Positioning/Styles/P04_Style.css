@@ -1,0 +1,27 @@
+.site__heading{
+    color: grey;
+    margin-left: 1em;
+}
+
+.site__post{
+    margin-top: 1em;;
+    display: inline-flex;
+}
+
+.site__post-media{
+    background-color: grey;
+
+    width: 250px;
+    height: 125px;
+
+    margin-right: 2em;
+    margin-left: 2em;
+}
+
+.site__post-context .site__post-time{
+    color: grey;
+}
+
+.site__post-context{
+    width: 50%;
+}
