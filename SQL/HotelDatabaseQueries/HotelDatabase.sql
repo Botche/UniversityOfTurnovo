@@ -57,4 +57,3 @@ CREATE TABLE ReserveInfo(
 	DateFrom DATETIME NOT NULL,
 	DateTo DATETIME NOT NULL
 );
-
