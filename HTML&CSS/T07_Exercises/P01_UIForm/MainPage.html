@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./MainStyle.css" />
+    <title>UI Form</title>
+</head>
+
+<body>
+    <div class="main">
+        <header class="main-header">
+            <h1>Flat Ui Web Form Widget</h1>
+        </header>
+        <section class="main-section">
+            <div class="main-form">
+                <div class="main__form-action main__form-register">
+                    <h2>REGISTER</h2>
+                </div>
+
+                <div class="main__form-content">
+                    <div class="main__form-media">
+                        <img src="./Name.ico" alt="" />
+                        <input type="text" name="Name" placeholder="Name" class="main__form-input" />
+                    </div>
+                    <div class="main__form-media">
+                        <img src="./Password.ico" alt="" />
+                        <input type="password" name="Password" placeholder="Password" class="main__form-input" />
+                    </div>
+                    <div class="main__form-media">
+                        <img src="./Password.ico" alt="" />
+                        <input type="password" name="Re-Password" placeholder="Confirm Password"
+                            class="main__form-input" />
+                    </div>
+                    <div class="main__form-media">
+                        <img src="./Email.ico" alt="" />
+                        <input type="email" name="Email" placeholder="Email" class="main__form-input" />
+                    </div>
+                </div>
+
+                <div class="main__form-terms">
+                    <form action=""><input type="checkbox" name="Terms" value="" /></form>
+                    <span class="main__form-term">I Agree To The <span class="main__form---blue">Terms Of
+                            Services</span></span>
+                </div>
+
+                <button class="form-button">Sign Up</button>
+                <p class="form-context">Already a member?<span class="form-context--underline">Sign In</span></p>
+            </div>
+            <div class="main-form">
+                <div class="main__form-action main__form-login">
+                    <h2>LOGIN</h2>
+                </div>
+
+                <div class="main__form-content">
+                    <div class="main__form-media">
+                        <img src="./Name.ico" alt="" />
+                        <input type="text" name="Name" placeholder="Username" class="main__form-input" />
+                    </div>
+                    <div class="main__form-media">
+                        <img src="./Password.ico" alt="" />
+                        <input type="password" name="Password" placeholder="Password" class="main__form-input" />
+                    </div>
+
+                    <div class="main__form-terms">
+                        <form action=""><input type="checkbox" value=""></form>
+                        <span class="main__form-term">Remember me</span>
+                        <span class="main__form-term form-context--underline">Forgot Password?</span>
+                    </div>
+
+                    <button class="form-button form-button--red">Sign Up</button>
+
+                    <p class="form__connect-with">Continue with</p>
+
+                    <div class="connect-with__buttons">
+                        <div class="main__form-media">
+                            <img src="./Facebook.ico" alt="" />
+                            <button class="form-button form-button--facebook">Facebook</button>
+                        </div>
+                        <div class="main__form-media">
+                            <img src="./Twitter.ico" alt="" />
+                            <button class="form-button form-button--twitter">Twitter</button>
+                        </div>
+                    </div>
+
+                    <p class="form-context">Don't have an acoount?<span class="form-context--underline">Sing Up</span>
+                    </p>
+                </div>
+            </div>
+            <div class="main-form">
+                <div class="main__form-action main__form--reset">
+                    <h2>ACCOUNT RESET</h2>
+                </div>
+
+                <div class="main__form-content">
+                    <div class="main__form-media">
+                        <img src="./Password.ico" alt="" />
+                        <input type="password" name="Password" placeholder="New Password" class="main__form-input" />
+                    </div>
+                    <div class="main__form-media">
+                        <img src="./Password.ico" alt="" />
+                        <input type="password" name="Re-Password" placeholder="Confirm Password"
+                            class="main__form-input" />
+                    </div>
+
+                    <div class="main__form-terms">
+                        <span class="main__form-term term--no-margin">
+                            <span class="main__form-term form-context--underline term--no-margin">Great passwords</span>
+                            use upper and lower case characters, numbers and symbols like "!@#$".
+                        </span>
+                    </div>
+
+                    <button class="form-button form-button--orange">Reset Password</button>
+
+                    <button class="form-button form-button--red">Send</button>
+
+                    <p class="form-context form-context--top">Already a member?<span
+                            class="form-context--underline">Sing In</span></p>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
