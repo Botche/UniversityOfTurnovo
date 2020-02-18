@@ -1,0 +1,31 @@
+.container--blue{
+    background-color: blue;
+    color: white;
+
+    padding: 50px;
+
+    width: 500px;
+    position: relative;
+}
+
+.paragraph{
+    position: absolute;
+    bottom: 20%;
+    left: 35%;
+}
+
+.container--white{
+    width: 400px;
+
+    margin-top: 30px;
+    margin-left: 90px;
+}
+
+#notification{
+    display: none;
+
+    position: absolute;
+
+    right: 10%;
+    top: 30%;
+}

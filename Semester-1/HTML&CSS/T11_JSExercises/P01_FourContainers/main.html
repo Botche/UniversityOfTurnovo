@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style.css">
+    <title>Four Containers</title>
+</head>
+<body>
+    <section class="section">
+        <div onclick="showMe(document.getElementById('first'))"  class="container">
+            <p id="first">First section</p>
+        </div>
+        <div onclick="showMe(document.getElementById('second'))"  class="container">
+            <p id="second">Second section</p>
+        </div>
+        <div onclick="showMe(document.getElementById('third'))"  class="container">
+            <p id="third">Third section</p>
+        </div>
+        <div onclick="showMe(document.getElementById('fourth'))" class="container">
+            <p id="fourth">Fourth section</p>
+        </div>
+    </section>
+
+    <script>
+        function showMe(paragraph){
+            paragraph.style.display = 'block';
+        }
+    </script>
+</body>
+</html>

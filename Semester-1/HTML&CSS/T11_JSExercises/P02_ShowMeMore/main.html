@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style.css">
+    <title>More and more</title>
+</head>
+
+<body>
+    <div>
+        <div class="container">
+            <div class="container--visible">
+                <span class="container-text">DOM Manipulations Exercise</span>
+                <button onclick="showMore(document.getElementById('container--not-visible'))" id="container-button">More</button>
+            </div>
+
+            <div id="container--not-visible">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Id consectetur deleniti fuga animi reprehenderit, doloremque,
+                natus eum amet sapiente magnam doloribus exercitationem nostrum in, 
+                molestias perferendis? Dignissimos quibusdam repellendus consequatur.
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function showMore(container){
+            let btn = document.getElementById("container-button");
+            
+            if(container.style.display == "none" || container.style.display == ""){
+                btn.innerText = 'Less';
+                container.style.display = "block";
+            }
+            else{
+                btn.innerText = 'More';
+                container.style.display = "none";
+            }
+        }
+    </script>
+</body>
+
+</html>

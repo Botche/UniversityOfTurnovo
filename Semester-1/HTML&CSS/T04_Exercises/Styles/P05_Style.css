@@ -1,0 +1,12 @@
+h1{
+    padding-left: 20px;
+}
+
+h2{
+    text-decoration: line-through;
+    text-align: right;
+}
+
+.bold{
+    font-weight: bold;
+}

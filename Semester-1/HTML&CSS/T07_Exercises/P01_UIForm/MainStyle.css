@@ -1,0 +1,176 @@
+body{
+    background-color: black;
+}
+
+.main-header h1{
+    text-align: center;
+    color: white;
+}
+
+.main-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.form{
+    width: 270px;
+    height: 400px;
+
+    background-color: white;
+}
+
+.form-action{
+    color: white;
+    
+    text-align: center;
+}
+
+.form-register{
+    background-color: blue;
+}
+
+.form-action h2{
+    margin-top: 0px;
+    padding: 10px 0px;
+}
+
+.form-content{
+    position: relative;
+}
+
+.form-content input{
+    color: black;
+
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+
+    height: 30px;
+    width: 80%;
+
+    margin-top: 15px;
+
+    border: none;
+    border-bottom: 1px solid grey;
+
+    text-indent: 20px;
+}
+
+.form-media{
+    position: relative;
+}
+
+.form-media img{
+    width: 18px;
+    height: 18px;
+
+    margin-top: 7px;
+    margin-left: 28px;
+
+    position: absolute;
+}
+
+.form-labels{
+    margin-left: 23px;
+
+    margin-top: 15px;
+
+    display: inline-flex;
+}
+
+.form-labels input{
+    width: 20px;
+    height: 20px;
+    margin: 0px;
+}
+
+.form-label{
+    font-size: 12px;
+
+    margin-top: 3px;
+    margin-left: 5px;
+
+    color: grey;
+}
+
+.form---blue{
+    color: blue;
+}
+
+.form-button{
+    width: 85%;
+
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+
+    margin-top: 15px;
+
+    padding: 7px 0px;
+
+    background-color: blue;
+    color: white;
+
+    border: 0px;
+}
+
+.form-footer{
+    font-size: 12px;
+    color: grey;
+    text-align: center;
+}
+
+.form-footer--underline{
+    color: black;
+    text-decoration: underline;
+}
+
+.form-login{
+    background-color: red;
+}
+
+.form-button--red{
+    background-color: red;
+} 
+
+.form-button--facebook{
+    background-color: darkblue;
+    margin-left: 20px;
+}
+
+.form-button--twitter{
+    background-color: rgb(76, 172, 204);
+    margin-left: 10px;
+}
+
+.form__connect-with{
+    text-align: center;
+    margin-top: 35px;
+}
+
+.connect-with__buttons{
+    display: inline-flex;
+}
+
+.connect-with__buttons button{
+    width: 100px;
+    margin-top: 0px;
+    padding-left: 15px;
+}
+
+.form--reset{
+    background-color: darkorange;
+}
+
+.form-button--orange{
+    background-color: darkorange;
+}
+
+.form-footer--top{
+    margin-top: 20px;
+}
+
+.label--no-margin{
+    margin-left: 0px;
+}

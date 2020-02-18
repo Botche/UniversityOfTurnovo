@@ -1,0 +1,110 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    
+    margin: 0px;
+    padding: 0px;
+
+    overflow-x: hidden;
+    font-size: 16px;
+}
+
+.header-media{
+    background-color: yellowgreen;
+    width: 100%;
+    height: 25em;
+
+    position: relative;
+}
+
+.header-media .header-container{
+    position: absolute;
+    top: 50%;
+    left: 36%;
+}
+
+.block-context{
+    background-color: rgb(190, 102, 190);
+    color: white;
+
+    margin-left: 5px;
+    padding: 5px;
+}
+
+.block-context--large{
+    font-size: larger;
+}
+
+.under-header{
+    background-color: rgb(177, 177, 0);
+    color: white;
+    text-align: center;
+
+    height: 200px;
+}
+
+.under-header .under-header__header{
+    margin-top: 0px;
+    padding-top: 2em;
+}
+
+.block-context--orange{
+    color: orange;
+}
+
+.context{
+    display: inline;
+}
+
+.item{
+    float: left;
+
+    padding: 20px;
+
+    position: relative;
+}
+
+.item-media{
+    width: 50px;
+    height: 50px;
+
+    position: absolute;
+    left: 20px;
+    top: 50px;
+
+    background-color: turquoise;
+}
+
+.item-context{
+    margin-left: 60px;
+}
+
+.item--almost-half{
+    width: 46%;
+    border-right: 1px solid black;
+}
+
+.item--half{
+    width: 44%;
+}
+
+.item-btn{
+    border: none;
+    padding: 5px;
+}
+
+.item-btn--orange{
+    color: white;
+    background-color: orange;
+}
+
+.slide{
+    background-color: palevioletred;
+    width: 100%;
+    height: 120px;
+}
+
+.item-btn--white{
+    color: red;
+    background-color: white;
+}

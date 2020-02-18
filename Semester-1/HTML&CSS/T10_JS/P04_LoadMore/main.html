@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>LoadMore</title>
+</head>
+<body>
+    <span>Lorem ipsum dolor sit amet consectetur, 
+        <a id="read" onclick="readMore(
+            document.getElementById('text')
+        )" href="#">Read more...</a>
+        <span id="text" style="display: none;">
+            adipisicing elit. Et perferendis esse 
+            laboriosam molestias ipsum voluptatem vel 
+            laborum voluptatum impedit nostrum? 
+            Laborum ea ex voluptas magni, repellat 
+            reprehenderit sapiente? Sed, nam.
+        </span>
+    </span>
+
+    <script>   
+
+        function readMore(element){
+            if(element.style.display == 'none'){
+                element.style.visibility = "visible";
+                element.style.display = "inline";
+
+                document.getElementById('read').style.display = 'none';
+            }else{
+                element.style.display = "none";
+            }
+        }
+    </script>
+</body>
+</html>

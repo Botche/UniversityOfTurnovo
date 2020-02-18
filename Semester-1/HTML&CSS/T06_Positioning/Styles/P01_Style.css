@@ -1,0 +1,37 @@
+.login-form{
+    border: 1px solid black;
+
+    width: 30%;
+}
+
+.login-form h1{
+    text-align: center;
+}
+
+.login-form__member{ 
+    margin-left: 1.7em;
+}
+
+.login-form__form-control{
+    background-color: rgb(219, 218, 218);
+
+    margin-bottom: 0.5em;
+    
+    width: 80%;
+}
+
+.login-form__form-control:hover{
+    background-color: yellow;
+} 
+
+.login-form__member img{
+    margin-left: 0.3em;
+    position:absolute;
+    width: 1.3em;
+    height: 1.3em;
+}
+
+.login-form__button-control{
+    margin-bottom: 1em;
+    margin-left: 2em;
+}

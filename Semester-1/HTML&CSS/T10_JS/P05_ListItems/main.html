@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ListItems</title>
+</head>
+<body>
+    <h1>List of Items</h1>
+    <ul id="list"></ul>
+
+    <input type="text" name="" id="newListItem">
+    <button onclick="AddItem(document.getElementById('newListItem'))">Add</button>
+
+    <script>
+        function AddItem(listItem){
+            if(listItem.value.length == 0) return;
+
+            let list = document.getElementById('list');
+            
+            let element = document.createElement('li');
+            element.innerHTML = listItem.value + " ";
+
+            let deleteLink= document.createElement("a");
+            deleteLink.textContent = "[Delete]"
+            deleteLink.href = "#";
+            deleteLink.style.textDecoration = 'none';
+
+            deleteLink.addEventListener("click", deleteItem);
+
+            element.appendChild(deleteLink);
+
+            list.appendChild(element);
+            
+            listItem.value = '';
+
+            function deleteItem(){
+                list.removeChild(element);
+            }
+        }
+    </script>
+</body>
+</html>

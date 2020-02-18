@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <input id="firstOperand" type="number" min="1" max="10" />
+        <span>+</span>
+        <input id="secondOperand" type="number" min="1" max="10" />
+        <span>=</span>
+        <input id="result" type="number" readonly />
+    </div>
+    <button onclick="calculate(
+        document.getElementById('firstOperand'),
+        document.getElementById('secondOperand'))">Calculate</button>
+
+    <script>
+
+        function calculate(firstOperand, secondOperand){
+            let result = +firstOperand.value
+                + (+secondOperand.value);
+            
+            document.getElementById("result").value = result;
+        }
+    </script>
+
+</body>
+
+</html>
