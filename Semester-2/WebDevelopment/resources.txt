@@ -1,0 +1,9 @@
+https://git-scm.com/docs
+https://www.atlassian.com/git/tutorials/comparing-workflows
+--като можете да инсталирате и git към visual studio, има такъв плъгин.
+
+https://www.entityframeworktutorial.net/efcore/entity-framework-core.aspx
+https://docs.microsoft.com/en-us/aspnet/core/?view=aspnetcore-3.1
+https://www.tutorialsteacher.com/core
+https://code-maze.com/net-core-series/
+https://entityframeworkcore.com/approach-code-first

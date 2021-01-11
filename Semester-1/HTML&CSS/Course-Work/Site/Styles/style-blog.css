@@ -1,0 +1,44 @@
+@media only screen and (min-width: 770px) {
+    .card, .card div{
+        height: 300px;
+    }
+
+    .card .card-img{
+        height: 100%;
+        width: 100%;
+    }    
+}
+
+body{
+    overflow-x: hidden;
+}
+
+main{
+    padding: 0 1rem 1rem 1rem;
+}
+
+.navbar-brand img{
+    width: 80px;
+}
+
+.card{
+    border-radius: 15px;
+}
+
+.card-img{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.card-body{
+    position: relative;
+}
+
+.card-body .bottom{
+    position: absolute;
+    bottom: 2%;
+}
+
+.full-height{
+    height: 58.3rem;
+}

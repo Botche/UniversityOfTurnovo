@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-brand img{
+    width: 80px;
+}
+
+.carousel-item img{
+    height: 88vh;
+}
+
+.carousel-caption{
+    color: grey;
+    text-shadow: 1px 1px 1px white;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-image: unset;
+}
+
+.carousel-control-next:after
+{
+  content: '>';
+  font-size: 55px;
+  color: grey;
+}
+
+.carousel-control-prev:after {
+  content: '<';
+  font-size: 55px;
+  color: grey;
+}
+
+.indicators{
+    background-color: grey !important;
+}

@@ -1,0 +1,23 @@
+.navbar-brand img{
+    width: 80px;
+}
+
+form{
+    border-radius: 15px;
+}
+
+.image-container{
+    position: relative;
+}
+
+.image-container img{
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text-area{
+    height: 250px !important;
+}
